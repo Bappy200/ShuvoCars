@@ -1,0 +1,582 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', serif
+}
+
+section{
+    padding:70px 100px;
+}
+.banner{
+    position: relative;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('image/Layer-4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* !nav bar */
+.sticky{
+    background: #333333;
+    padding: 20px 100px;
+
+}
+.text{
+    text-align: center;
+    margin-bottom: 150px;
+}
+.banner .text h2{
+    color:#ffc61a;
+    font-weight: 700;
+}
+.banner .text h1{
+    color:#fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+.banner .text p{
+    color:#fff;
+}
+.banner .car_img{
+    width: 100%;
+    margin-bottom: -350px;
+    align-items: center;
+    text-align: center;
+}
+.banner .car_img img{
+    width: 550px;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 100px;
+    align-items: center;
+    z-index: 1000;
+    transition: .5s;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    list-style: none;
+
+}
+header ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 4px;
+    padding:5px 15px;
+    color:#fff;
+    transition:.5s;
+}
+header ul li a:hover{
+    background: #ffc61a; 
+}
+
+/*New Work Section*/
+
+.new_work{
+    padding-top: 150px;
+    background: #ffc61a;
+}
+.contant{
+    display: flex;
+    justify-content: space-between;
+}
+.new_work .contant .best_in_city{
+    width: 70%;
+    padding-right: 300px;
+    
+}
+.new_work .contant .best_in_city h2
+{
+    color:#333;
+    text-transform: uppercase;
+    font-style: unset; 
+}
+.new_work .contant .best_in_city h1{
+    color:#333;
+    text-transform: uppercase;
+    font-style: unset; 
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;  
+}
+.new_work .contant .best_in_city p{
+    margin-bottom: 50px;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background:#333;
+    color:#fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+.new_work .contant .book_car{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.new_work .contant .book_car .contuct .desing{
+    background: #fff;
+    padding:10px;
+}
+
+.new_work .contant .book_car .contuct h1{
+    background:#333;
+    color: #fff;
+    text-align: left;
+    padding: 10px 30px;
+    
+}
+.new_work .contant .book_car .contuct .desing input[type="text"]{
+    outline: none;
+    border: none;
+    padding:  10px;
+    border-bottom: 2px solid #e4e4e4;
+    width: 48%;
+}
+
+.new_work .contant .book_car .contuct .desing input:nth-child(7){
+    width: 100%;
+}
+
+
+.book_car .contuct .desing input[type="submit"]{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text{
+    margin-bottom: 70px;
+}
+.text h1{
+    font-weight: 700px;
+    color:#ffc61a;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.text h1 span{
+    color:#333;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+.content .contentBx{
+  
+    width: 300px;
+    align-items: center;
+    height: 270px;
+    margin: 10px;
+    background:#f5f4f2;
+    padding:20px 20px;
+    text-align: center;
+    transition: .5s;
+}
+.content .contentBx img{
+   max-width: 250px;
+   margin-top: -70px;
+}
+
+
+.outTariffs .content .contentBx:hover {
+    background:#ffc61a;
+}
+
+.contentBx h2{
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+.contentBx h1{
+    color:#333;
+    margin-bottom: 20px;
+}
+
+.WeDoBest{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('image/Layer-4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.WeDoBest .text h1 span{
+    color:#fff;
+}
+
+.WeDoBest .content{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+.WeDoBest .content .contentBox{
+    max-width: calc(47% - 40px);
+    display: flex;
+    padding: 10px 0px;
+    
+}
+
+.WeDoBest .content .contentBox .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ffc61a;
+    margin-right: 25px;
+}
+.WeDoBest .content .contentBox .icon img{
+    width: 30px;
+}
+.contentBox .rightText h2{
+    color:#ffc61a;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.contentBox .rightText p{
+    color: #fff;
+}
+
+.WeDoBest .buttton{
+    text-align: center;
+}
+.WeDoBest .buttton .btn{
+    background:#ffc61a;
+}
+.content .linkAll{
+    padding-right: 30px;
+}
+.content .linkAll h2{
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.content .linkAll p{
+    padding-bottom: 40px;
+}
+.content .linkAll .img a{
+    text-decoration: none;
+}
+.content .linkAll .img a img{
+    max-width: 120px;
+}
+
+/*! testimonials*/
+
+.Testimonials{
+    background:url('image/Service_Company.jpg');
+}
+.Testimonials .text h1 span{
+    color:#fff;
+}
+.Testimonials .content .textimoialBX{
+    background: rgb(8, 0, 0);
+    border-radius: 20px;
+    margin: 0px 15px;
+    padding:20px 30px;
+}
+
+.Testimonials .content .textimoialBX p{
+    color:#fff;
+    padding-bottom: 15px;
+}
+.Testimonials .content .textimoialBX .imgtx{
+    display: flex;
+}
+.Testimonials .content .textimoialBX .imgtx img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.Testimonials .content .textimoialBX .imgtx h1{
+    color:#ffc61a;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+
+.Testimonials .content .textimoialBX .imgtx h1 span{
+    color:#fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* *mbile number sections */
+.mobileNumber{
+    background: #ffc61a;
+}
+.mobileNumber .text{
+    margin-bottom: 0px;
+}
+
+.mobileNumber .text h2{
+    font-weight:700;
+}
+.mobileNumber .text h1{
+    color:#333;
+    font-weight:700;
+    font-size:40px;
+    padding-top: 20px;
+}
+
+/* !footer section */
+
+.footerSection{
+    padding:50px 100px;
+    background:#0d0a07;
+}
+ .footerSection .content .contentBx{
+     background:transparent;
+     text-align: left;
+
+ }
+ .footerSection .content .contentBx h1{
+     color:#fff;
+     text-transform: uppercase;
+     font-size: 22px;
+     font-weight: 600;
+ }
+ .footerSection .content .contentBx .desing{
+     height: 5px;
+     width: 100%;
+     margin-bottom: 20px;
+     background: #ffc61a;
+ }
+ .footerSection .content .aboutF p{
+     color:#ffff;
+     margin-bottom: 20px;
+ }
+ .footerSection .content .aboutF .icon a{
+    text-decoration: none;
+ }
+
+ .footerSection .content .aboutF .icon a i{
+     color:#ffc61a;
+     padding:8px;
+ }
+
+ .footerSection .content .DownloadF p{
+     color:#fff;
+     margin-bottom: 35px;
+ }
+
+ .footerSection .content .DownloadF .iconD{
+     display: flex;
+ }
+
+ .footerSection .content .DownloadF .iconD h3{
+     color:#fff;
+     margin-right: 20px;
+ }
+
+ .footerSection .content .DownloadF .iconD .fa-apple{
+    padding-left:33px;
+    color:#fff;
+ }
+ .footerSection .content .DownloadF .iconD .fa-android{
+     padding-bottom: 35px;
+     color:#fff;
+ }
+ .contuctF .iconD{
+     display: flex;
+     margin-bottom: 15px;
+ }
+ .contuctF .iconD i{
+     color:#fff;
+     margin-right: 15px;
+ }
+.contuctF .iconD p{
+    color:#fff;
+}
+
+
+/* !Tab and Mobile viwe */
+
+@media(max-width:991px){
+    section{
+        padding:70px 50px;
+        width: 100%;
+    }
+    header{
+        padding:25px 50px;
+    }
+   .sticky{
+        padding:18px 50px;
+    }
+    
+    .menu{
+        position: fixed;
+        top:70px;
+        left: -100%;
+        background:#333;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        padding:100px 50px;
+        transition: .5s;
+    }
+    .menu.active{
+        left: 0;
+    }
+    header ul{
+        justify-content: center;
+        display: inline-block;
+    }
+    header ul li{
+        margin-bottom: 25px;
+    }
+    .togole{
+        width: 35px;
+        height: 35px;
+        background:url(image/menu.png);
+        background-repeat: no-repeat;
+        cursor: pointer;
+        background-position: center;
+        transition: .5s;
+    }
+    .togole.active{
+        background:url(image/close.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: center;
+        cursor: pointer;
+        transition: .5s;
+    }
+    .logo img{
+        width:115px;
+    }
+    .banner .text h1{
+        font-size: 35px;
+    }
+    .banner .text h3{
+        font-size: 18px;
+    }
+    .banner .car_img {
+        width: 100%;
+        margin-bottom: -444px;
+    }
+    .banner .car_img img {
+        width: 350px;
+    }
+
+    .contant{
+        flex-direction: column;
+    }
+    .new_work .contant .best_in_city {
+        width: 100%;
+        padding:0px;
+        margin-bottom: 35px;
+    }
+    .new_work .contant .best_in_city h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .new_work .contant .best_in_city h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .new_work .contant .best_in_city p {
+        margin-bottom: 40px;
+    }
+
+    .new_work .contant .book_car {
+        width: 100%;
+    }
+    .book_car .contuct .desing input[type="submit"] {
+        width: 200px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+    .content .contentBx {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .WeDoBest .content .contentBox {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .contentBox .rightText h2 {
+        font-size: 18px;
+    }
+    .WeDoBest .content .contentBox .icon {
+        min-width: 50px;
+        height: 50px;
+    }
+    .content .linkAll {
+        padding-right: 0px;
+        text-align: center;
+    }
+    
+    .content .linkAll {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .imagephone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .Testimonials .content .textimoialBX{
+        margin: 10px 0px 0px 0px;
+        width: 100%;
+        height: 200px;
+    }
+    .Testimonials .content .textimoialBX .imgtx img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Testimonials .content .textimoialBX .imgtx h1 {
+        font-size: 17px;
+    }
+
+
+    .footerSection {
+        padding:25px 50px;
+    }
+    .mobileNumber .text h2 {
+        font-size: 22px;
+    }
+    .mobileNumber .text h1 {
+        font-size: 30px;
+    }
+    .footerSection .content .contentBx {
+        margin: 0px;
+        padding:0px;
+    }
+}
+@media(max-width:591px){
+    .banner .car_img {
+        width: 100%;
+        margin-bottom: -489px;
+    }
+
+    .banner .car_img img {
+        width: 250px;
+    }
+
+}
